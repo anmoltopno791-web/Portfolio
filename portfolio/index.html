@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anmol Topno — Junior Software Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Anmol Topno, a junior software developer with a focus on full-stack web development and backend systems."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- ============ NAV ============ -->
+    <header class="site-header" id="site-header">
+      <div class="header-inner">
+        <a href="#top" class="logo" aria-label="Anmol Topno, home">AT</a>
+
+        <nav class="site-nav" id="site-nav" aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="#about" class="nav-link">about</a></li>
+            <li><a href="#skills" class="nav-link">skills</a></li>
+            <li><a href="#projects" class="nav-link">projects</a></li>
+            <li><a href="#experience" class="nav-link">experience</a></li>
+            <li><a href="#education" class="nav-link">education</a></li>
+            <li><a href="#contact" class="nav-link">contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            type="button"
+            class="theme-toggle"
+            id="theme-toggle"
+            aria-label="Toggle dark mode"
+            aria-pressed="false"
+          >
+            <span class="theme-toggle-track" aria-hidden="true"
+              ><span class="theme-toggle-thumb"></span
+            ></span>
+          </button>
+          <button
+            type="button"
+            class="nav-toggle"
+            id="nav-toggle"
+            aria-expanded="false"
+            aria-controls="site-nav"
+            aria-label="Toggle menu"
+          >
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="top">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="hero-kicker">Junior Software Developer</p>
+            <h1 class="hero-name">ANMOL TOPNO</h1>
+            <p class="hero-lede">
+              Results-oriented and self-motivated developer building practical
+              full-stack solutions with a strong focus on problem-solving, clean
+              APIs, and real-world software delivery.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View projects</a>
+              <a href="#contact" class="btn btn-ghost">Get in touch</a>
+            </div>
+            <p class="hero-meta">
+              Ranchi, Jharkhand, India · available for remote opportunities
+            </p>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="terminal">
+              <div class="terminal-bar">
+                <span class="terminal-dot"></span>
+                <span class="terminal-dot"></span>
+                <span class="terminal-dot"></span>
+                <span class="terminal-title">jordan@dev — zsh</span>
+              </div>
+              <pre
+                class="terminal-body"
+              ><code id="terminal-output"></code><span class="terminal-cursor" id="terminal-cursor"></span></pre>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="section" id="about">
+        <div class="section-inner">
+          <h2 class="section-title">About</h2>
+          <div class="about-grid">
+            <p class="about-text">
+              Results-oriented and self-motivated aspiring Software Developer
+              making a confident transition from a non-IT background into the
+              technology industry, driven by a genuine passion for programming
+              and problem-solving. Equipped with hands-on experience in
+              full-stack web development and object-oriented programming through
+              independently built projects and internships across Java, Python,
+              JavaScript, HTML, CSS, and MySQL. Demonstrated ability to design
+              and deliver practical software solutions, including a secure
+              banking application, a Flask-based REST API for book catalog
+              management, and a full-stack MERN note-taking application —
+              showcasing strong command of OOP principles, MVC architecture,
+              REST API design, and full-stack development.
+            </p>
+            <dl class="about-facts">
+              <div class="about-fact">
+                <dt>Focus</dt>
+                <dd>Full-stack web development</dd>
+              </div>
+              <div class="about-fact">
+                <dt>Core stack</dt>
+                <dd>Java, Python, JavaScript</dd>
+              </div>
+              <div class="about-fact">
+                <dt>Current stage</dt>
+                <dd>Internships + portfolio projects</dd>
+              </div>
+              <div class="about-fact">
+                <dt>Location</dt>
+                <dd>Ranchi, Jharkhand, India</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SKILLS ============ -->
+      <section class="section section-alt" id="skills">
+        <div class="section-inner">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-intro">
+            Grouped by where I use them day to day. The bars are a rough read on
+            comfort level, not a scorecard.
+          </p>
+          <div class="skills-grid" id="skills-grid">
+            <!-- populated by js/components.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PROJECTS ============ -->
+      <section class="section" id="projects">
+        <div class="section-inner">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-intro">
+            A few things I've built recently, picked to show range rather than a
+            highlight reel.
+          </p>
+          <div class="projects-grid" id="projects-grid">
+            <!-- populated by js/components.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ EXPERIENCE ============ -->
+      <section class="section section-alt" id="experience">
+        <div class="section-inner">
+          <h2 class="section-title">Experience</h2>
+          <div class="timeline" id="experience-timeline">
+            <!-- populated by js/components.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ EDUCATION ============ -->
+      <section class="section" id="education">
+        <div class="section-inner">
+          <h2 class="section-title">Education</h2>
+          <div class="timeline" id="education-timeline">
+            <!-- populated by js/components.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section class="section section-alt" id="contact">
+        <div class="section-inner">
+          <h2 class="section-title">Contact</h2>
+          <div class="contact-grid">
+            <div class="contact-info">
+              <p class="section-intro">
+                Have a project in mind or just want to say hello? The form
+                works, or reach me directly through any of these.
+              </p>
+              <ul class="contact-links">
+                <li>
+                  <span class="contact-label">Email</span>
+                  <a href="mailto:anmoltopno791@gmail.com"
+                    >anmoltopno791@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <span class="contact-label">LinkedIn</span>
+                  <a
+                    href="https://linkedin.com/in/anmol-topnoa0771a371"
+                    target="_blank"
+                    rel="noopener"
+                    >linkedin.com/in/anmol-topnoa0771a371</a
+                  >
+                </li>
+                <li>
+                  <span class="contact-label">Location</span>
+                  <a href="#">Ranchi, Jharkhand, India</a>
+                </li>
+              </ul>
+            </div>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  autocomplete="name"
+                  required
+                />
+                <span class="form-error" id="error-name" role="alert"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+                />
+                <span class="form-error" id="error-email" role="alert"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  autocomplete="off"
+                  required
+                />
+                <span class="form-error" id="error-subject" role="alert"></span>
+              </div>
+
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+                <span class="form-error" id="error-message" role="alert"></span>
+              </div>
+
+              <button type="submit" class="btn btn-primary form-submit">
+                Send message
+              </button>
+              <p
+                class="form-status"
+                id="form-status"
+                role="status"
+                aria-live="polite"
+              ></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-inner footer-inner">
+        <p>
+          &copy; <span id="footer-year"></span> ANMOL TOPNO. Built by hand, no
+          framework.
+        </p>
+        <button
+          type="button"
+          class="back-to-top"
+          id="back-to-top"
+          aria-label="Back to top"
+        >
+          &uarr;
+        </button>
+      </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
